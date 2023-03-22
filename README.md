@@ -3,7 +3,7 @@ Be in templates folder
 ```
 mkdir samplepres && \
   cd samplepres && \
-  quarto use template --no-prompt ../quarto-organization-template && 
+  quarto use template ~/Templates/quarto-organization-template && 
   quarto render samplepres.qmd && \
   open *html
 ```
