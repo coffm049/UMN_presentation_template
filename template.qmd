@@ -1,20 +1,20 @@
 ---
-title: "YOUR ORGANIZATION TITLE"
-author: "YOU!"
-institute: "YOUR ORGANIZATION"
+title: "TITLE"
+author: "Christian Coffman"
+institute: "University of Minnesota"
 date: today
-title-slide-attributes: # this is if you want a background image on the title screen. Use the right path to the image you want
-  data-background-image: "space.jpg"
-  data-background-opacity: "0.5"
+# title-slide-attributes: # this is if you want a background image on the title screen. Use the right path to the image you want
+  # data-background-image: # if want background to all slides
+  # data-background-opacity: "0.5"
 format:
-  organization-revealjs:
+  UMN-revealjs:
     echo: true
     highlight-style: github
     slide-number: c/t
     width: 1600
     height: 900
-    logo: "logo.png"
-    footer: "[YOUR ORG](https://example.com/)"
+    logo: "D2D-maroon-blk.png"
+    footer: "[University of Minnesota](https://umn.edu)"
 ---
 
 ```{r}
@@ -23,7 +23,6 @@ options(tidyverse.quiet=TRUE)
 library(tidyverse)
 ```
 
-## { background-image="space.jpg" background-opacity="0.5" } 
 
 This is a slide with a background image
 
